@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pokemon Card</title>
+</head>
+<body>
+    <div class="container">
+        <form class="search-form">
+            <input type="text" class="search-input" placeholder="Enter Pokemon ID">
+            <button type="submit" class="submit-btn">Generate</button>
+        </form>
+
+        <div class="card">
+            <div class="card-header">
+                <h1 class="name">Lucario</h1>
+                <h3 class="hp"><span>HP</span>120</h3>
+            </div>
+
+            <div class="card-img">
+                <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/448.png" alt="Pokemon">
+            </div>
+
+            <div class="card-body">
+                <div class="card-body-header">
+                    <h3>Ability</h3>
+                    <h2 class="ability">Tag Coach</h2>
+                </div>
+                <div class="paragraph">
+                    <p>Your <em><strong>TAG TEAM</strong></em> Pokemon take 20 less damage form your opponent's attacks (after applying Weakness and Resistant).</p>
+                </div>
+            </div>
+            <div class="card-footer">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+        </div>
+    </div>
+    <script src="api.js"></script>
+</body>
+</html>
